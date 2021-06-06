@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
 
@@ -10,6 +10,9 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 14px;
+}
 
 
 
@@ -24,13 +27,13 @@ body {
     margin: 0;
 }
 .container {
-    margin: 30px auto;
-    width: 35px;
+    margin: 20px auto;
+    width: 350px;
     text-align: left;
 }
 
 .container h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h1 {
@@ -39,12 +42,14 @@ h1 {
 
 h3 {
     border-bottom: 1px solid #bbb;
-    padding-bottom: 10px;
-    margin: 40px 0 10px;
+    padding-bottom: 5px;
+    margin: 15px 0 10px;
+    align-content: left;
 }
 
 h4 {
     text-transform: uppercase;
+    text-align: left;
 }
 
 .inc-exp-container {
@@ -64,7 +69,7 @@ h4 {
 
 .inc-exp-container > div:first-of-type {
     border-right: 1px solid #dedede;
-    padding-bottom: ;
+    padding-bottom: 40px;
 }
 
 .money {
@@ -113,7 +118,7 @@ input {
 
 .list {
     list-style: none;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .list li {
@@ -152,5 +157,5 @@ input {
 }
 
 .list li:hover .delete-btn {
-    opacity: ;
+    opacity: 1;
 }
